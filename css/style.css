@@ -7,14 +7,14 @@ body {
   margin-top: -33px;
 }
 
-h2 {
+#primeirocinza h2 {
   font-family: Oswald;
   font-size: 29pt;
   text-align: center;
   padding-top: 80px;
 }
 
-h3 {
+#primeirocinza h3 {
   font-family: "Open Sans";
   font-size: 18pt;
 }
@@ -136,6 +136,7 @@ menu a {
   background-color: black;
   height: 3px;
   border-width: 0;
+  margin-bottom: 30px;
 }
 
 .primeirobranco {
@@ -160,6 +161,8 @@ menu a {
 .primeirobranco h2 {
   font-family: Arial;
   font-size: 18pt;
+  margin-top: 0px;
+  text-align: center;
 }
 
 .primeirobranco span {
@@ -168,16 +171,16 @@ menu a {
   text-decoration: underline;
 }
 
-.corpotalentos span{
+.corpotalentos span {
   text-decoration: none;
-
 }
 
 .corpotalentos {
-    text-align: center;
+  text-align: center;
 }
 
 .titulo {
-    text-decoration: underline !important;
-    font-weight: bold;
+  text-decoration: underline !important;
+  font-weight: bold;
+  padding-left: 30px;
 }
