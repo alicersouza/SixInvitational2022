@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(244, 244, 244);
+}
 #primeirocinza {
   background-color: rgb(66, 66, 66);
   color: white;
@@ -16,7 +19,7 @@ h3 {
   font-size: 18pt;
 }
 
-p {
+#primeirocinza p {
   font-family: "Open Sans";
   font-size: 14pt;
   text-align: justify;
@@ -118,14 +121,63 @@ p {
   position: absolute;
   font-family: Oswald;
   font-size: 14pt;
-
 }
 
 a:visited {
-    color: white;
+  color: white;
 }
 
 menu a {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
+.primeirobranco hr {
+  /* width: 65%; */
+  background-color: black;
+  height: 3px;
+  border-width: 0;
+}
+
+.primeirobranco {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(244, 244, 244);
+  line-height: 2;
+  text-indent: 1.8em;
+  text-align: justify;
+}
+
+.primeirobranco p {
+  font-family: Arial;
+  font-size: 12pt;
+}
+
+.primeirobranco li {
+  font-family: Arial;
+  font-size: 12pt;
+}
+
+.primeirobranco h2 {
+  font-family: Arial;
+  font-size: 18pt;
+}
+
+.primeirobranco span {
+  font-family: Arial;
+  font-size: 12pt;
+  text-decoration: underline;
+}
+
+.corpotalentos span{
+  text-decoration: none;
+
+}
+
+.corpotalentos {
+    text-align: center;
+}
+
+.titulo {
+    text-decoration: underline !important;
+    font-weight: bold;
+}
