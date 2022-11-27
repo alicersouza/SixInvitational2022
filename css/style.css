@@ -1,0 +1,131 @@
+#primeirocinza {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  margin-top: -33px;
+}
+
+h2 {
+  font-family: Oswald;
+  font-size: 29pt;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 18pt;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 14pt;
+  text-align: justify;
+  padding-left: 17%;
+  padding-right: 17%;
+  text-indent: 1.8em;
+}
+
+.fotosdias {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 17%;
+  padding-bottom: 20px;
+}
+
+.dia {
+  margin-right: 31px;
+}
+
+.dia img {
+  width: 350px;
+  height: 364px;
+  object-fit: cover;
+}
+
+.dia small {
+  font-family: Arial;
+  font-size: 12pt;
+}
+
+.fotodia1 {
+  object-position: -165px -5px;
+}
+
+.fotodia2 {
+  object-position: -201px -5px;
+}
+
+.fotodia3 {
+  object-position: -97px -5px;
+}
+
+.playoffs h2 {
+  text-transform: uppercase;
+  font-family: Oswald;
+  font-size: 30pt;
+}
+
+.videoplayoffs {
+  padding-left: 24%;
+  height: 550px;
+  width: 50%;
+  padding-bottom: 100px;
+}
+
+.topo {
+  background: url("../img/Topo.jpg") no-repeat top center fixed;
+  background-size: 100%;
+  background-position: 0px 0px;
+  font-family: Roboto;
+  color: white;
+  height: 900px;
+  padding-top: 241px;
+}
+
+.topo h1 {
+  text-align: center;
+  font-size: 36pt;
+  padding-top: 16px;
+}
+
+.topo h2 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18pt;
+}
+
+.topo hr {
+  width: 40%;
+  background-color: darkslategrey;
+  border-width: 0;
+  height: 13px;
+}
+
+.esquerdo {
+  top: 0px;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-family: Oswald;
+  font-size: 14pt;
+}
+
+.direito {
+  right: 0px;
+  float: right;
+  top: 0px;
+  position: absolute;
+  font-family: Oswald;
+  font-size: 14pt;
+
+}
+
+a:visited {
+    color: white;
+}
+
+menu a {
+    padding-right: 30px;
+}
+
