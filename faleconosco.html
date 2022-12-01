@@ -1,70 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Six Invitational 2022 | Fale Conosco</title>
     <link rel="shortcut icon" href="img/Icon.ico" type="image/x-icon" />
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
+  </head>
 
-<body>
-    <span>Six Invitational 2022</span>
-    <menu>
-        <a href="index.html">Home</a>
-        <a href="faleconosco.html">Fale Conosco</a>
-    </menu>
-    <img src="img/Logo.png" title="Logo" />
-    <h1>Fale Conosco</h1>
-    <img src="img/Topo.jpg" title="Six Invitational 2022" />
-    <br />
-    <p>O que você tem a dizer é muito importante para nós. Para que possamos melhor atendê-lo, selecione abaixo o tipo
-        de atendimento desejado e preencha corretamente o formulário adequado à sua solicitação.
-    </p>
-    <fieldset>
-        <form>
-            <label for="nome">Nome:</label> <br>
-            <input type="text" id="nome" />
-            <br>
-            <br>
+  <body>
+    <div class="topo">
+      <div class="cabecalho">
+        <div class="esquerdo"><span>Six Invitational 2022</span></div>
+        <div class="direito">
+          <menu>
+            <a href="index.html">Home</a>
+            <a href="faleconosco.html">Fale Conosco</a>
+          </menu>
+        </div>
+      </div>
+      <h1 class="faleconosco">FALE CONOSCO</h1>
+      <hr />
+    </div>
 
-            <label for="email">E-mail:</label> <br>
-            <input type="email" id="email" />
-            <br>
-            <br>
+    <fieldset class="formulario">
+      <div class="formulariotexto">
+        <h2>Fale Conosco</h2>
+        <p>
+          O que você tem a dizer é muito importante para nós. Para que possamos
+          melhor atendê-lo, selecione abaixo o tipo de atendimento desejado e
+          preencha corretamente o formulário adequado à sua solicitação.
+        </p>
+      </div>
 
-            <label for="telefone">Telefone:</label><br>
-            <input type="text" id="telefone" />
-            <br>
-            <br>
-            <label for="assunto">Escolha o assunto:</label><br>
-            <select id="assunto">
-                <option>Sugestões</option>
-                <option>Reclamações</option>
-                <option>Dúvidas</option>
-            </select>
-            <br>
-            <br>
+      <form>
+        <div class="caixa">
+          <label for="nome">Nome</label>
+          <label class="campoobrigatorio">*</label>
+          <input type="text" id="nome" placeholder="Nome" />
+        </div>
 
-            <label for="mensagem">Escreva aqui sua mensagem:</label>
-            <br>
-            <textarea id="mensagem" cols="40" rows="5"> </textarea>
-            <br>
-            <br>
+        <div class="caixa">
+          <label for="email">E-mail</label>
+          <label class="campoobrigatorio">*</label>
+          <input type="email" id="email" placeholder="E-mail" />
+        </div>
 
-            <label for="novidades">Deseja receber nossas novidades?</label><br>
-            <input type="radio" name="sim" value="sim" /> Sim
-            <input type="radio" name="nao" value="nao" /> Não
-            <br>
-            <br>
+        <div class="caixa">
+          <label for="telefone">Telefone</label>
+          <label class="campoobrigatorio">*</label>
+          <input type="text" id="telefone" placeholder="Telefone" />
+        </div>
 
-            <input type="button" value="Enviar" />
+        <div class="caixa">
+          <label for="assunto">Escolha o assunto</label>
+          <label class="campoobrigatorio">*</label>
+          <select id="assunto">
+            <option>Sugestões</option>
+            <option>Reclamações</option>
+            <option>Dúvidas</option>
+          </select>
+        </div>
 
-        </form>
+        <div class="caixa">
+          <label for="mensagem">Escreva aqui sua mensagem</label>
+          <label class="campoobrigatorio">*</label>
+          <textarea id="mensagem" cols="40" rows="5"> </textarea>
+        </div>
+
+        <div class="caixa">
+          <label for="novidades">Deseja receber nossas novidades?</label>
+          <label class="campoobrigatorio">*</label>
+          <br />
+          <br />
+          <div>
+            <label class="container"
+              >Sim
+              <input type="radio" checked="checked" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+            <label class="container"
+              >Não
+              <input type="radio" name="radio" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+
+        <input type="button" value="Enviar" />
+      </form>
     </fieldset>
-</body>
-<br />
-<footer>&copy; Criado por Alice Souza </footer>
-
+  </body>
+  <br />
+  <footer>&copy; Criado por Alice Souza</footer>
 </html>

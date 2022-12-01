@@ -46,7 +46,7 @@ body {
   object-fit: cover;
 }
 
-.dia small {
+small {
   font-family: Arial;
   font-size: 12pt;
 }
@@ -82,7 +82,7 @@ body {
   background-position: 0px 0px;
   font-family: Roboto;
   color: white;
-  height: 900px;
+  height: 750px;
   padding-top: 241px;
 }
 
@@ -132,7 +132,6 @@ menu a {
 }
 
 .primeirobranco hr {
-  /* width: 65%; */
   background-color: black;
   height: 3px;
   border-width: 0;
@@ -183,4 +182,206 @@ menu a {
   text-decoration: underline !important;
   font-weight: bold;
   padding-left: 30px;
+}
+
+#fotoelenco {
+  width: 704px;
+  height: 456px;
+  object-fit: cover;
+  object-position: 15px -87px;
+}
+
+#segundocinza {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  margin-top: 90px;
+}
+
+.segundobranco {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 95px;
+  background-color: rgb(244, 244, 244);
+  line-height: 2;
+  text-indent: 1.8em;
+  text-align: center;
+}
+
+.segundobranco p {
+  font-family: Arial;
+  font-size: 14pt;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.segundobranco h2 {
+  font-family: Oswald;
+  font-size: 29pt;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#terceirocinza {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  margin-top: 90px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#terceirocinza h2 {
+  font-family: Oswald;
+  font-size: 29pt;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#terceirocinza a:visited {
+  color: white;
+  font-family: Arial;
+  font-size: 17pt;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#terceirocinza a {
+  color: white;
+  font-family: Arial;
+  font-size: 17pt;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+footer {
+  text-align: center;
+}
+
+.faleconosco {
+  font-family: Oswald;
+  font-size: 72pt !important;
+}
+
+.caixa {
+  border: solid 1px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Roboto;
+  font-size: 12pt;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.caixa label {
+  padding-bottom: 15px;
+}
+
+.caixa input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 12pt;
+}
+
+.formulario {
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+}
+
+.formulariotexto {
+  border: solid 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12pt;
+  font-family: Roboto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.formulariotexto h2 {
+  font-family: Roboto;
+  font-size: 24pt;
+}
+
+.campoobrigatorio {
+  color: red;
+}
+
+.formulario input[type="button"] {
+  background-color: rgb(6, 116, 107);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 12pt;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
 }
