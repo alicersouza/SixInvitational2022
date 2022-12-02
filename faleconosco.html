@@ -91,21 +91,22 @@
           <div>
             <label class="container"
               >Sim
-              <input type="radio" checked="checked" name="radio" />
+              <input id="novidadeSim" type="radio" checked="checked" name="radio" />
               <span class="checkmark"></span>
             </label>
             <label class="container"
               >Não
-              <input type="radio" name="radio" />
+              <input id="novidadeNao" type="radio" name="radio" />
               <span class="checkmark"></span>
             </label>
           </div>
         </div>
 
-        <input type="button" value="Enviar" />
+        <input onclick="enviarMensagem()" type="button" value="Enviar" />
       </form>
     </fieldset>
   </body>
   <br />
   <footer>&copy; Criado por Alice Souza</footer>
+  <script type ="text/javascript" src="js/script.js"></script>
 </html>
