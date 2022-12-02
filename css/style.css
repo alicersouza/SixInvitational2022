@@ -83,7 +83,7 @@ small {
   font-family: Roboto;
   color: white;
   height: 750px;
-  padding-top: 241px;
+  padding-top: 115px;
 }
 
 .topo h1 {
@@ -384,4 +384,92 @@ textarea {
   height: 8px;
   border-radius: 50%;
   background: white;
+}
+
+#teamsLinha1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 17%;
+  padding-bottom: 20px;
+  font-family: "Open Sans" !important;
+  font-size: 13pt !important;
+}
+
+#teamsLinha2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 17%;
+  padding-bottom: 80px;
+  font-family: "Open Sans" !important;
+  font-size: 13pt !important;
+}
+
+#segundocinza h2{
+  font-family: "Oswald";
+  font-size: 29pt;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+#team1 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team2 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team3 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team4 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team5 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team6 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team7 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#team8 img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+#logotipo {
+  text-align: center;
 }
