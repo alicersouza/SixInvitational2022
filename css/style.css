@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding-left: 17%;
+  padding-left: 115px;
   padding-bottom: 20px;
 }
 
@@ -390,7 +390,7 @@ textarea {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding-left: 17%;
+  padding-left: 55px;
   padding-bottom: 20px;
   font-family: "Open Sans" !important;
   font-size: 13pt !important;
@@ -400,7 +400,7 @@ textarea {
   display: flex;
   flex-direction: row;
   text-align: center;
-  padding-left: 17%;
+  padding-left: 55px;
   padding-bottom: 80px;
   font-family: "Open Sans" !important;
   font-size: 13pt !important;
